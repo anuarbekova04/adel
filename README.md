@@ -1,12 +1,14 @@
 # adel
 room for practice
-import numpy as np
+
+import numpy as *
+
 
 text = open("hw1.txt")
 x_val = np.array("")
 
 for i in range(100):
-    x = text.readline(i)
+    x = text.read(i)
     print(i , x)
-print(x_val)
+
 text.close()
